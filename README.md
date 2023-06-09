@@ -1,9 +1,9 @@
 # Sistema de postagens
-- Cadastro e login de usuários
-- Autenticação
-- Gestão de usuários
-- Cadastro de categorias
-- Cadastro de postagens
+- Cadastro e login de usuários;
+- Autenticação;
+- Gestão de usuários;
+- Cadastro, edição e listagem de categorias;
+- Cadastro, edição e listagem de postagens.
 
 
 🚀 _Criado para fins de estudo_
