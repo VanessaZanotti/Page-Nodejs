@@ -14,7 +14,7 @@
 </p>
 
 
-Projeto criado no [Curso de Node.JS do Victor Lima](https://www.youtube.com/watch?v=LLqq6FemMNQ&list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B) para consolidar os conhecimentos em **Node.js** e **Mongo.db**.
+Projeto criado no [Curso de Node.JS do Victor Lima](https://www.youtube.com/watch?v=LLqq6FemMNQ&list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B) para consolidar os conhecimentos em **Node.js** + **express** + **Mongo.db**.
 
 ## Como rodar localmente
 
