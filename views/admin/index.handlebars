@@ -1,0 +1,28 @@
+<div class='jumbotron'>
+  <h1 class='display-4'>Area Administrativa</h1>
+  <p class='lead'>Por aqui é possível gerenciar suas postagens e categorias.</p>
+  <hr class='my-4' />
+  <p>Escolha entre as opções abaixo.</p>
+  <a
+    class='btn btn-primary btn-lg'
+    href='/admin/categorias'
+    role='button'
+  >Categorias</a>
+  <a
+    class='btn btn-primary btn-lg'
+    href='/admin/postagens'
+    role='button'
+  >Postagens</a>
+
+  {{#each usuarios}}
+  <a href='/admin/usuarios/{{_id}}' class='btn btn-primary btn-lg' role='button'>Gestão de Usuários</a>
+  
+
+{{else}}
+
+<a class='btn btn-primary btn-lg' href='/admin/usuarios' role='button'>Gestão
+    de Usuários</a>
+</div>
+
+
+{{/each}}

@@ -1,0 +1,16 @@
+<h4 class='text-center'>Login</h4>
+<div class='card mx-auto' style='width: 30rem;'>
+  <div class='card-body'>
+    <form action='/usuarios/login' method='POST'>
+      <label for='email'>Email: </label>
+
+      <div class='input-group mb-3'>
+        <input type='email' class='form-control' name='email' required />
+        <span class='input-group-text' id='basic-addon2'>@exemplo.com</span>
+      </div>
+      <label class='mt-2' for='senha'>Senha: </label>
+      <input type='password' name='senha' class='form-control' required />
+      <button class='btn btn-primary mt-4' type='submit'>Entrar</button>
+    </form>
+  </div>
+</div>
